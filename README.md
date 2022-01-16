@@ -87,9 +87,14 @@ services:
       - ZONE=example.com
       - SUBDOMAIN=subdomain
       - PROXIED=false
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
 ```
 
 ## License
+
+It is fork of [oznu/docker-cloudflare-ddns](https://github.com/oznu/docker-cloudflare-ddns)
 
 Copyright (C) 2017-2020 oznu
 
